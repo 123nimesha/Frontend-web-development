@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Intern Training</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+ <h2></h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="firstname">First name:</label>
+      <input type="fname" class="form-control" id="fname" placeholder="Enter first name" name="fname">
+    </div>
+    <div class="form-group">
+      <label for="lname">Last name:</label>
+      <input type="lname" class="form-control" id="lname" placeholder="Enter last name" name="lname">
+    </div>
+    <div class="form-group">
+      <label for="address">Address:</label>
+      <input type="adress" class="form-control" id="address" placeholder="Enter Address" name="address">
+    </div>
+    <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Gender
+    </button>
+    <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Male</a>
+    <a class="dropdown-item" href="#">Female</a>
+   
+      </div>
+    
+    </div>
+    <br>
+    <form action="/action_page.php">
+        <label for="birthdaytime">Birthday:</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        
+      </form>
+<br>      
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
